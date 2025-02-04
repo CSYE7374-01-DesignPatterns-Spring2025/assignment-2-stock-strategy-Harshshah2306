@@ -1,17 +1,23 @@
 package edu.neu.csye7374;
 
-/**
- * 
- * @author Yesha
- * 
- */
+// /**
+//  * 
+//  * @author Yesha
+//  * 
+//  */
 
 public class Driver {
 	public static void main(String[] args) {
 		System.out.println("============Main Execution Start===================\n\n");
 
          //Add your code in between these two print statements
-		 
+		Demo dm = new Demo();
+		dm.startDemo(); 
+		CalculateMetrics cm = new CalculateMetrics(); 
+		cm.calculateMetrics();
+		System.out.println("==============================================================");
+		Strategy.startStrategy();
+		//  cm.calculateMetrics();
 		System.out.println("\n\n============Main Execution End===================");
 	}
 
